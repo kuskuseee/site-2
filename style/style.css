@@ -1,17 +1,3 @@
-@import url('./header/header.css');
-@import url('./menu/menu.css');
-@import url('./button/button.css');
-@import url('./text/text.css');
-@import url('./block/block.css');
-@import url('./item-block/item-block.css');
-@import url('./footer/footer.css');
-@import url('./socseti/socseti.css');
-@import url('../fonts/fontawesome/css/all.css');
-
-
-
-
-
 @font-face {
     font-family: 'HelveticaNeueCyr-Medium';
     src: url('../fonts/helveticaneuecyr-medium.ttf');
@@ -26,8 +12,6 @@
     font-family: 'HelveticaNeueCyr-Thin';
     src: url('../fonts/helveticaneuecyr-thin.ttf');
 }
-
-/* Основные стили================================ */
 
 body, html {
     margin: 0;
@@ -46,5 +30,278 @@ footer {
     background-color: #080742;
 
 }
+.block__about {
+    background-color: #040440;
+    padding-bottom: 97px;
+}
 
-/*================================ */
+.block__about_content {
+    display: flex;
+}
+
+.block__about_img {
+    padding: 100px 0 0 395px;
+}
+
+.block__about_main{
+    padding: 90px 0 0 85px;
+}
+.block__about_text{
+    width: 815px;
+
+}
+.block__header {
+    background-image: url('../../../img/fon.png');
+    padding-bottom: 159px;
+}
+
+.block__header_content {
+    padding: 179px 0 0 354px;
+}
+
+.block__header_content-title{
+    width: 122px;
+}
+
+.block__header_content-name {
+    width: 200px;
+    padding: 8px 0 0 4px;
+    letter-spacing: 1.1px;
+    line-height: 59.3px;
+}
+
+.block__header_about {
+    font-size: 24px;
+    padding-left: 3px;
+    letter-spacing: -0.2px;
+}
+
+.block__header_button {
+    margin: 87px 0 55px 0;
+}
+
+.block__header_learning {
+    display: flex;
+}
+
+.block__kurs {
+    background-color: #130b5b;
+}
+
+
+.block__kurs_content {
+    width: 1200px;
+    padding: 72px 0 0 351px;
+}
+.block__kurs_content-pading{
+    padding: 32px 0 207px 5px;
+}
+
+.block__kurs_row{
+    display: flex;
+    padding: 14px 0 0 0;
+    
+}
+.block__kurs_row-padding{
+    padding: 7px 0 0 2px;
+
+}
+.block__kurs_row-column{
+    width: 580px;
+}
+.block__kurs_row-leter{
+    letter-spacing: -1.2px;
+}
+
+.block__kurs_button {
+    margin: 2px 0 0 66px;
+}
+.block {
+    width: 100%;
+    height: 100%;
+}
+
+.button__text {
+    padding: 17px 0 0 56px;
+    letter-spacing: -0.2px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'HelveticaNeueCyr-Medium';
+}
+
+.button__text_upercase {
+    padding: 17px 0 0 56px;
+    letter-spacing: -0.9px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'HelveticaNeueCyr-Medium';
+    text-transform: uppercase;
+}
+
+.button-big__text{
+    font-size: 30px;
+    text-align: center;
+    padding: 36px 0 0 0;
+    letter-spacing: 0.1px;
+}
+.button-little {
+    top: 0;
+    right: 0;
+    display: flex;
+    background-color: red;
+    width: 257px;
+    height: 73px;
+    border-radius: 40px;
+}
+
+.button-big {
+    top: 0;
+    right: 0;
+    display: flex;
+    background-color: red;
+    width: 538px;
+    height: 155px;
+    border-radius: 30px;
+    outline: 1px dashed #130b5b;
+    outline-offset: -1px;
+}
+.footer__content {
+    width: 1300px;
+    display: flex;
+    font-family: 'HelveticaNeueCyr-Light';
+    color: white;
+    font-size: 24px;
+    padding: 47px 0 0 352px;
+    letter-spacing: -0.4px;
+}
+.footer__address {
+    width: 300px;
+}
+
+.footer__socseti {
+    padding-top: 16px;
+}
+
+.footer__email {
+    margin: 5px 0 0 70px;
+}
+
+.footer__phone {
+    margin: 4px 0 0 204px;
+}
+
+.header__text {
+    top: 0;
+    left: 0;
+    width: 280px;
+    padding-left: 104px;
+
+}
+
+
+.header__text_upercase {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+}
+.header {
+    height: 88px;
+    background-color: #040440;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__button {
+     margin-right: 84px;
+}
+.header__menu {
+    margin-left: 430px;
+}
+.item-block__header {
+    text-transform: uppercase;
+    font-family: 'HelveticaNeueCyr-Light';
+    letter-spacing: 0.2px;
+    padding-bottom: 13px;
+}
+.item-block__text{
+    font-size: 24px;
+}
+.item-block {
+    margin: 0px 85px 0px 2px;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.menu__item {
+    justify-content: space-between;
+    font-size: 24px;
+    padding-bottom: 10px;
+    width: 485px;
+    font-family: 'HelveticaNeueCyr-Medium';
+}
+
+.menu__item_link{
+    color: white;
+    text-decoration: none;
+}
+.socseti__body {
+    display: flex;
+    justify-content: space-around;
+    width: 166px;
+    margin-right: 111px;
+}
+.socseti__item {
+    color: red;
+    font-size: 36px;
+ 
+}
+
+.text-block__text_red {
+    color: red;
+    font-family: 'HelveticaNeueCyr-Medium';
+    border-top: 7px solid;
+    font-size: 24px;
+    letter-spacing: -1.3px;
+    padding-top: 12px;
+}
+
+.text__block_white {
+    color: white;
+    font-family: 'HelveticaNeueCyr-Medium';
+}
+
+.text-block__border-left_red {
+    border-left: 7px solid red;
+}
+
+.text-block__h1_upercase {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.text-block__header {
+    padding: 5px 0 27px 13px;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.text__block_font{
+    font-family: 'HelveticaNeueCyr-Thin';
+    padding: 34px 0 0 18px;
+    letter-spacing: 0.1px;
+    line-height: 36px;
+    font-size: 30px;
+}
+
+.text__block_font p{
+    padding-bottom: 35px;
+}
+
+
+
+
